@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "citation-ready"
+abstract: >-
+  A dependency-free command-line tool that checks a web page for the structural
+  signals observed on content that AI answer engines tend to quote and recommend.
+  Reports observed correlations, not guarantees: a high score means a page
+  resembles pages that get cited, and does not promise a citation.
+type: software
+version: "0.1.0"
+date-released: "2026-07-31"
+authors:
+  - family-names: "Adams"
+    given-names: "Logan"
+    orcid: "https://orcid.org/0009-0009-1235-9479"
+    affiliation: "Clear Cited"
+repository-code: "https://github.com/Clear-Cited/citation-ready"
+url: "https://clearcited.com/"
+license: MIT
+keywords:
+  - answer engine optimization
+  - generative engine optimization
+  - AI search
+  - citation
+  - structured data
+  - static analysis
