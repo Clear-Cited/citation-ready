@@ -1,0 +1,33 @@
+{
+  "title": "citation-ready: a structural citability check for AI answer engines",
+  "upload_type": "software",
+  "description": "<p>A dependency-free command-line tool that checks a web page for the structural signals observed on content that AI answer engines (ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews) tend to quote and recommend.</p><p><strong>These are observed correlations, not guarantees.</strong> A high score means a page looks like the pages that get cited; it does not promise a citation. The only way to know whether an engine actually cites a page is to measure it.</p><p>Python standard library only. Runs offline in mock mode by default.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Adams, Logan",
+      "orcid": "0009-0009-1235-9479",
+      "affiliation": "Clear Cited"
+    }
+  ],
+  "keywords": [
+    "answer engine optimization",
+    "generative engine optimization",
+    "AI search",
+    "citation",
+    "structured data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Clear-Cited/citation-ready",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://clearcited.com/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
