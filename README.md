@@ -1,5 +1,9 @@
 # citation-ready
 
+[![PyPI](https://img.shields.io/pypi/v/citation-ready.svg)](https://pypi.org/project/citation-ready/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21757510.svg)](https://doi.org/10.5281/zenodo.21757510)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **Does AI cite you — and is your page even built to be cited?** Check a page for
 the structural signals our AI Visibility Index *observes* on content that AI
 engines (ChatGPT, Perplexity, Claude, Gemini, Google AI) tend to quote and
@@ -13,6 +17,16 @@ to know whether AI actually cites you is to measure it (see below).
 - **Mock mode by default** — runs offline against a built-in demo page.
 - **Honest framing** — every report says these are correlations from measurement,
   not a ranking guarantee.
+
+## Install
+
+```bash
+pip install citation-ready
+```
+
+That installs a `citation-ready` command. Everything below works the same either
+way — `citation-ready --mock` and `python citation_ready.py --mock` are the same
+program. Python 3.9+, no dependencies.
 
 ## Usage
 
@@ -92,6 +106,21 @@ from what our **AI Visibility Index** observes on pages that earn those citation
 
 Honest distinction: `citation-ready` is instant-but-predictive (structure only,
 offline); the teardown is measured-but-async (real prompts, every engine, human QC).
+
+## Cite this
+
+Every release is archived on Zenodo with a DOI, and the repo carries a
+`CITATION.cff` so GitHub’s **Cite this repository** box works.
+
+| | DOI |
+|---|---|
+| **Cite the software** (always resolves to the latest version) | [10.5281/zenodo.21757510](https://doi.org/10.5281/zenodo.21757510) |
+| **Cite this exact release** (v0.1.0) | [10.5281/zenodo.21757511](https://doi.org/10.5281/zenodo.21757511) |
+
+## Mirror
+
+Mirrored to Codeberg at <https://codeberg.org/clear-cited/citation-ready>, tags
+included, so the project does not depend on any single host.
 
 ## License
 
