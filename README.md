@@ -107,6 +107,19 @@ from what our **AI Visibility Index** observes on pages that earn those citation
 Honest distinction: `citation-ready` is instant-but-predictive (structure only,
 offline); the teardown is measured-but-async (real prompts, every engine, human QC).
 
+## Related tools
+
+Part of a set of five, all MIT-licensed and each archived on Zenodo with a DOI.
+Find what is missing, fix it, then measure whether it moved.
+
+| Tool | What it does |
+|---|---|
+| [`aeo-audit-lite`](https://github.com/Clear-Cited/aeo-audit-lite) | measure your share of model against competitors, with a confidence interval |
+| **citation-ready** | check whether a page carries the signals cited pages tend to carry — *you are here* |
+| [`schema-for-ai`](https://github.com/Clear-Cited/schema-for-ai) | JSON-LD templates tuned for AI extraction, plus a validator |
+| [`schema-generator`](https://github.com/Clear-Cited/schema-generator) | build Organization / Product / FAQPage JSON-LD in your browser |
+| [`llms-txt-generator`](https://github.com/Clear-Cited/llms-txt-generator) | generate an llms.txt for your site, in your browser |
+
 ## Cite this
 
 Every release is archived on Zenodo with a DOI, and the repo carries a
